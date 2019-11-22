@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>53317b6a-d656-476c-b508-3533df119424</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApp.py</StartupFile>
+    <StartupFile>地产会议通知模板.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApp.py" />
+    <Compile Include="地产会议通知模板.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="基于统计生成文本.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
